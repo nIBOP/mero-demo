@@ -1,8 +1,14 @@
 .App {
     text-align: center;
     display: block;
-    height: 70vh;
-    img {
+    height: 85vh;
+    #logo {
         width: 50%;
+    }
+    #arrow {
+        width: 30px;
+        position:absolute;
+        bottom: 10%;
+        right: 48.7%;
     }
 }
