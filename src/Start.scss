@@ -1,8 +1,17 @@
 .Start{
+    margin-top: 10vh;
     text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    a {
+        color: #FFFFFF;
+        
+    }
 }
 
 .but-start {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
     background: linear-gradient(100.86deg, #3E64AC 20.3%, #3AAA35 48.65%, #DEC938 78.92%, #E33033 106.55%);
     color: #FFFFFF;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -13,4 +22,103 @@
     width: 381px;
     height: 99px;
     border-radius: 42px;
+    position: relative;
+}
+
+#hat {
+    transform: rotate(-60deg);
+    position: absolute;
+    left: 350px;
+    bottom: 96px;
+    width: 12%;
+}
+
+.dialog {
+    margin: 1vh 0;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+.dialog-1{
+    position: relative;
+    animation: 5s slide-1 500ms 1;
+    left: 5%;
+    margin: 6vh 0;
+    background-color: #294F96;
+    border-radius: 50px;
+    width: 979px;
+    height: 116px;
+
+}
+
+.dialog-2{
+    position: relative;
+    animation: 6s slide-2 500ms 1;
+    left: 30%;
+    margin: 5vh 0;
+    background-color: #33902E;
+    border-radius: 50px;
+    width: 649px;
+    height: 104px;
+}
+
+.dialog-3{
+    position: relative;
+    animation: 8s slide-3 500ms 1;
+    left: 25%;
+    margin: 4vh 0;
+    background-color: #D3B800;
+    border-radius: 50px;
+    width: 1183px;
+    height: 62px;
+}
+
+.dialog-4{
+    position: relative;
+    animation: 10s slide-4 500ms 1;
+    left: 50%;
+    margin: 4vh 0;
+    background-color: #D0171A;
+    border-radius: 50px;
+    width: 1004px;
+    height: 62px;
+}
+
+@keyframes slide-1{
+    from {
+        left: - 100%
+    }   
+    to {
+        left: 5% 
+    } 
+}
+
+@keyframes slide-2{
+    from {
+        left: 150%
+    }   
+    to {
+        left: 30% 
+    } 
+}
+
+@keyframes slide-3{
+    from {
+        left: -100%
+    }   
+    to {
+        left: 25% 
+    } 
+}
+
+@keyframes slide-4{
+    from {
+        left: 150%
+    }   
+    to {
+        left: 50% 
+    } 
 }
